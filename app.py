@@ -21,7 +21,6 @@ def test():
 def skill():
     print(request.json)
     data = {
-        {
         "version": "2.0",
         "template": {
         "outputs": [
@@ -30,10 +29,9 @@ def skill():
                     "text": "간단한 텍스트 요소입니다."
                     }
                 }
-                ]
+]
             }
         }
-    }
     
     return jsonify(data)
     
