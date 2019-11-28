@@ -6,11 +6,44 @@ app = Flask(__name__)
 def main():
     return "Hi! If you wanna get response about Skill server, Go to /skill"
     
+@app.route("/test", methods=["GET"])
+def test():
+    data = jsonify(
+        version = 1.0,
+        value_list=[
+            "abc",
+            "def"
+        ]
+    )
+    return data
+
 @app.route("/skill", methods=["POST"])
 def skill():
     print(request.json)
     data = {
-    "version": "2.0",
+        {
+        "version": "2.0",
+        "template": {
+        "outputs": [
+                {
+                    "simpleText": {
+                    "text": "간단한 텍스트 요소입니다."
+                    }
+                }
+                ]
+            }
+        }
+    }
+    
+    return jsonify(data)
+    
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', debug=True)
+
+
+"""
+"version": "2.0",
     "template": {
         "outputs": [
             {
@@ -51,13 +84,5 @@ def skill():
                     "messageText": "퀵리플라이3 눌렀다!"
             }
         ]
-        
-    },
-}
 
-
-
-    return jsonify(data)
-
-if __name__ == "__main__":
-    app.run(host='0.0.0.0', debug=True)
+"""
