@@ -25,9 +25,9 @@ def skill():
                             },
                         "buttons": [
                             {
-                                "label": "첫번째 버튼",
-                                "action": "message",
-                                "messageText": "첫번째 버튼을 눌렀습니다!"
+                                "label": "Azure로 이동하기",
+                                "action": "webLink",
+                                "webLinkUrl": "https://portal.azure.com"
                             }
                            
                         ]
