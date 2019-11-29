@@ -11,36 +11,68 @@ def skill():
         "template": {
             "outputs": [
                 {
-                    "listCard": {
-                        "header": {
-                            "title": "한국외대 사이트모음",
-                            "imageUrl": "http://builder.hufs.ac.kr/user/hufs/mycodyimages/main_new/main190829.jpg"
-                        },
+                    "carousel": {
+                        "type": "commerceCard",
                         "items": [
                             {
-                                "title": "메인 사이트",
-                                "description": "학교 메인 웹사이트로 이동",
-                                "imageUrl": "http://builder.hufs.ac.kr/user/hufs/mycodyimages/new/goimg_navy.png",
-                                "link": {
-                                    "web": "http://hufs.ac.kr/"
-                                }
+                            "commerceCard": {
+                                "description": "서브웨이",
+                                "price": 1000,
+                                "discount": 200,
+                                "currency": "won",
+                                "thumbnails": [
+                                    {
+                                        "imageUrl": "http://subway.co.th/en/images/menu/catering/catering-mealbox.jpg",
+                                        "link": {
+                                            "web": "http://subway-menu.com/subway-menu-germany/subway-to-go-box/"
+                                        }
+                                    }
+                                ],
+                                "buttons": [
+                                    {
+                                        "label": "010-0000-0000에 전화걸기",
+                                        "action": "phone",
+                                        "phoneNumber": "010-0000-0000"
+                                    },
+                                    {
+                                        "label": "공유하기",
+                                        "action": "share"
+                                    }
+
+                                ]
+                            }
                             },
                             {
-                                "title": "E-Class",
-                                "description": "e-Class / 사이버강의 System",
-                                "imageUrl": "http://eclass2.hufs.ac.kr:8181/ilos/images/osms/hufs/ko/logo.gif",
-                                "link": {
-                                    "web": "http://eclass2.hufs.ac.kr:8181/ilos/main/main_form.acl"
-                                }
+                            "commerceCard": {
+                                "description": "던킨도넛",
+                                "price": 3000,
+                                "discount": 200,
+                                "currency": "won",
+                                "thumbnails": [
+                                    {
+                                        "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/munckin-1548961144.jpg?crop=1xw:1xh;center,top&resize=480:*",
+                                        "link": {
+                                            "web": "https://news.dunkindonuts.com"
+                                        }
+                                    }
+                                ],
+                                "buttons": [
+                                    {
+                                        "label": "공유하기",
+                                        "action": "share"
+                                    }
+
+                                ]
+                            }
                             }
                         ],
-                        "buttons": [
-                            {
-                                "label": "강의실 대실하러가기",
-                                "action": "webLink",
-                                "webLinkUrl": "https://rs.hufs.ac.kr/"
-                            }
-                        ]
+
+                        "header": {
+                            "title": "CarouselHeader 제목",
+                            "description": "CarouselHeader 설명"
+                        }
+
+
                     }
                 }
             ]
