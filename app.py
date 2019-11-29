@@ -14,14 +14,14 @@ def skill():
                     "commerceCard": {
                         "description": "서브웨이",
                         "price": 1000,
-                        "discountRate": 10,
-                        "discountedPrice": 900,
+                        "discount": 200,
                         "currency": "won",
                         "thumbnails": [
                             {
                                 "imageUrl": "http://subway.co.th/en/images/menu/catering/catering-mealbox.jpg",
                                 "link": {
                                     "web": "http://subway-menu.com/subway-menu-germany/subway-to-go-box/"
+                                }
                             }
                         ],
                         "buttons": [
@@ -39,7 +39,6 @@ def skill():
                     }
                 }
             ]
-        }
         }
     }
 
