@@ -5,14 +5,13 @@ app = Flask(__name__)
 
 @app.route("/skill", methods=["POST"])
 def skill():
-    print(request.json)
     data = {
         "version": "2.0",
         "template": {
             "outputs": [
                 {
                     "simpleText": {
-                        "text": "아래 노란버튼이 퀵리플라이!"
+                        "text": "사용자 발화 : " + str(request.json['userRequest']['utterance'])
                     }
                 }
             ],
