@@ -15,7 +15,7 @@ def skill():
                         "description": "서브웨이",
                         "price": 1000,
                         "discountRate": 10,
-                        "discountedPrice": 900
+                        "discountedPrice": 900,
                         "currency": "won",
                         "thumbnails": [
                             {
