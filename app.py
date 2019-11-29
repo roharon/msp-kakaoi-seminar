@@ -40,6 +40,7 @@ def skill():
                 }
             ]
         }
+        }
     }
 
     return jsonify(data)
