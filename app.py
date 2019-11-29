@@ -28,6 +28,10 @@ def skill():
                                 "label": "010-0000-0000에 전화걸기",
                                 "action": "phone",
                                 "phoneNumber": "010-0000-0000"
+                            },
+                            {
+                                "label": "공유하기",
+                                "action": "share"
                             }
                            
                         ]
