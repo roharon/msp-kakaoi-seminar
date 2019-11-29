@@ -25,9 +25,9 @@ def skill():
                             },
                         "buttons": [
                             {
-                                "label": "Azure로 이동하기",
-                                "action": "webLink",
-                                "webLinkUrl": "https://portal.azure.com"
+                                "label": "010-0000-0000에 전화걸기",
+                                "action": "phone",
+                                "phoneNumber": "010-0000-0000"
                             }
                            
                         ]
