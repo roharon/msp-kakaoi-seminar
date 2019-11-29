@@ -18,7 +18,8 @@ def skill():
                             "imageUrl": "https://t1.daumcdn.net/friends/www/talk/kakaofriends_talk_2018.png",
                             "link": {
                                 "mobile": "https://naver.com",
-                                "web": "https://hufs.ac.kr"
+                                "web": "https://hufs.ac.kr",
+                                "android": "https://google.com"
                                 }
                             },
                         "buttons": [
