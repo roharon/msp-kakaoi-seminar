@@ -11,7 +11,7 @@ def skill():
             "outputs": [
                 {
                     "simpleText": {
-                        "text": "사용자 발화 : " + str(request.json['userRequest']['utterance'])
+                        "text": "사용자 발화 : " + str(request.json['userRequest']['user']['properties']['plusfriendUserKey'])
                     }
                 }
             ],
