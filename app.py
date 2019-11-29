@@ -15,8 +15,8 @@ def skill():
                         "type": "commerceCard",
                         "items": [
                             {
-                            "commerceCard": {
-                                "description": "서브웨이",
+                                "title": "서브웨이",
+                                "description": "서브웨이입니다",
                                 "price": 1000,
                                 "discount": 200,
                                 "currency": "won",
@@ -40,11 +40,10 @@ def skill():
                                     }
 
                                 ]
-                            }
                             },
                             {
-                            "commerceCard": {
-                                "description": "던킨도넛",
+                                "title": "던킨도넛",
+                                "description": "던킨도넛입니다",
                                 "price": 3000,
                                 "discount": 200,
                                 "currency": "won",
@@ -64,14 +63,7 @@ def skill():
 
                                 ]
                             }
-                            }
                         ],
-
-                        "header": {
-                            "title": "CarouselHeader 제목",
-                            "description": "CarouselHeader 설명"
-                        }
-
 
                     }
                 }
