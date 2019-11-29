@@ -18,7 +18,7 @@ def skill():
                         },
                         "items": [
                             {
-                                "title": "메인 사이트"",
+                                "title": "메인 사이트",
                                 "description": "학교 메인 웹사이트로 이동",
                                 "imageUrl": "http://builder.hufs.ac.kr/user/hufs/mycodyimages/new/goimg_navy.png",
                                 "link": {
