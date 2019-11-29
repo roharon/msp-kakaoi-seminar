@@ -15,7 +15,11 @@ def skill():
                         "title": "카드의 제목",
                         "description": "상세 설명",
                         "thumbnail": {
-                            "imageUrl": "https://t1.daumcdn.net/friends/www/talk/kakaofriends_talk_2018.png"
+                            "imageUrl": "https://t1.daumcdn.net/friends/www/talk/kakaofriends_talk_2018.png",
+                            "link": {
+                                "mobile": "https://naver.com",
+                                "web": "https://google.com"
+                            }
                             },
                         "buttons": [
                             {
