@@ -14,7 +14,7 @@ def skill():
                     "listCard": {
                         "header": {
                             "title": "한국외대 사이트모음",
-                            "imageUrl": "http://builder.hufs.ac.kr/user/hufs/mycodyimages/main_new/main190829.jpg""
+                            "imageUrl": "http://builder.hufs.ac.kr/user/hufs/mycodyimages/main_new/main190829.jpg"
                         },
                         "items": [
                             {
@@ -27,7 +27,7 @@ def skill():
                             },
                             {
                                 "title": "E-Class",
-                                "description": "e-Class / 사이버강의 System"",
+                                "description": "e-Class / 사이버강의 System",
                                 "imageUrl": "http://eclass2.hufs.ac.kr:8181/ilos/images/osms/hufs/ko/logo.gif",
                                 "link": {
                                     "web": "http://eclass2.hufs.ac.kr:8181/ilos/main/main_form.acl"
@@ -36,7 +36,7 @@ def skill():
                         ],
                         "buttons": [
                             {
-                                "label": "강의실 대실하러가기,
+                                "label": "강의실 대실하러가기",
                                 "action": "webLink",
                                 "webLinkUrl": "https://rs.hufs.ac.kr/"
                             }
