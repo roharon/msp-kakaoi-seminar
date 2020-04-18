@@ -20,10 +20,9 @@ jobs:
       with:
         python-version: '3.8'
 
-    - name: Build using AppService-Build
-      uses: azure/appservice-build@v1
-      with:
-        platform: python
+    - name: 'pip install'
+      run: |
+        pip install -r requirements.txt
 
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v1
